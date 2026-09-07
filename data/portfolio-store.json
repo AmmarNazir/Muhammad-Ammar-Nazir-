@@ -1,0 +1,415 @@
+{
+  "profile": {
+    "name": "Muhammad Ammar Nazir",
+    "title": "Full Stack MERN & Software Engineer",
+    "bio": "Specializing in robust MERN stack architectures, high-performance APIs, database indexing, and minimalist responsive user experiences.",
+    "aboutText": [
+      "I am a passionate Full Stack Software Engineer with a solid foundation in Information Technology from the International Islamic University Islamabad (IIUI). My primary engineering focus revolves around developing modern web platforms with clean architectural patterns, responsive layouts, and robust backend microservices.",
+      "Over the course of my projects and industry engagements, I have engineered scalable MERN applications, optimized database query execution plans, integrated real-time workflows, and built bulletproof JWT security models.",
+      "Whether architecting an end-to-end management platform or polishing fluid micro-interactions, I prioritize code readability, quick indexing, and user-centric minimalist design."
+    ],
+    "email": "muhammad.bsit594@iiu.edu.pk",
+    "whatsappNumber": "923001234567",
+    "location": "Islamabad, Pakistan",
+    "education": [
+      {
+        "degree": "BS Information Technology (BSIT)",
+        "institution": "International Islamic University Islamabad (IIUI)",
+        "period": "2020 - 2024",
+        "details": "Focused on Software Engineering, Database Management Systems, Data Structures, Web Technologies, and Network Security."
+      }
+    ],
+    "resumeDriveUrl": "https://drive.google.com/file/d/1Bxxxxxxxxx_ammar_nazir_resume/view?usp=sharing",
+    "githubUrl": "https://github.com/AmmarNazir",
+    "linkedinUrl": "https://linkedin.com/in/ammar-nazir",
+    "twitterUrl": "https://twitter.com/ammar_dev",
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "3+"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "18+"
+      },
+      {
+        "label": "Core Technologies",
+        "value": "15+"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "100%"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AutoFixHub - Auto Workshop & Inventory Platform",
+      "slug": "autofixhub-workshop-management",
+      "description": "Comprehensive automotive service and vehicle maintenance ecosystem featuring live job tracking, inventory dispatch, and automated client billing.",
+      "fullDescription": "Built with the MERN stack, AutoFixHub streamlines automotive repair operations. Features include role-based access for technicians and service advisors, real-time parts stock monitoring with low-inventory alerts, and digital invoice generation.",
+      "category": "fullstack",
+      "tags": [
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "Redux Toolkit"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1200&q=80",
+      "liveUrl": "https://autofixhub.example.com",
+      "githubUrl": "https://github.com/AmmarNazir/AutoFixHub",
+      "driveUrl": "https://drive.google.com/drive/folders/autofixhub-specs",
+      "featured": true,
+      "order": 1,
+      "createdAt": "2025-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "proj-2",
+      "title": "CloudFlow MERN ERP & Resource Management",
+      "slug": "cloudflow-mern-erp",
+      "description": "Multi-tenant cloud enterprise application with granular permission levels, complex data table virtualization, and automated sales metrics.",
+      "fullDescription": "High-concurrency ERP backend utilizing MongoDB compound indexes for instantaneous reporting. Includes JWT session hardening, refresh token rotation, and exportable PDF/Excel ledger summaries.",
+      "category": "fullstack",
+      "tags": [
+        "MERN",
+        "JWT Auth",
+        "MongoDB Indexing",
+        "Redux Toolkit",
+        "Tailwind"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "liveUrl": "https://cloudflow-erp.example.com",
+      "githubUrl": "https://github.com/AmmarNazir/CloudFlow-ERP",
+      "driveUrl": "https://drive.google.com/drive/folders/cloudflow-architecture",
+      "featured": true,
+      "order": 2,
+      "createdAt": "2025-02-10T14:30:00.000Z"
+    },
+    {
+      "id": "proj-3",
+      "title": "PulseTelemetry - Realtime Microservice Monitor",
+      "slug": "pulse-telemetry-monitor",
+      "description": "Distributed services health monitoring system collecting heartbeat pings, latency percentiles, and alerts.",
+      "fullDescription": "Constructed using Express, Node cluster instances, WebSockets, and Redis pub/sub. Provides instant alert triggers via WhatsApp and Email APIs upon service failure.",
+      "category": "backend",
+      "tags": [
+        "Node.js",
+        "Express",
+        "WebSockets",
+        "Redis",
+        "Docker"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "liveUrl": "https://pulsetelemetry.example.com",
+      "githubUrl": "https://github.com/AmmarNazir/PulseTelemetry",
+      "driveUrl": "https://drive.google.com/drive/folders/pulse-diagrams",
+      "featured": true,
+      "order": 3,
+      "createdAt": "2025-03-01T09:15:00.000Z"
+    },
+    {
+      "id": "proj-4",
+      "title": "Aura Commerce - High-Speed Headless Storefront",
+      "slug": "aura-commerce-storefront",
+      "description": "Ultra-fast headless e-commerce frontend with instant optimistic cart updates, faceted search, and dark mode palette.",
+      "fullDescription": "Engineered for sub-100ms render speeds. Utilizes client-side caching with Redux Toolkit Query, skeleton loaders, and full keyboard accessibility.",
+      "category": "frontend",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Stripe API"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
+      "liveUrl": "https://aura-storefront.example.com",
+      "githubUrl": "https://github.com/AmmarNazir/AuraCommerce",
+      "driveUrl": "https://drive.google.com/drive/folders/aura-design-assets",
+      "featured": false,
+      "order": 4,
+      "createdAt": "2025-04-12T16:00:00.000Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": "sk-1",
+      "name": "React.js",
+      "category": "frontend",
+      "proficiency": 95,
+      "iconName": "Atom",
+      "description": "Hooks, Context, Performance, Suspense",
+      "order": 1
+    },
+    {
+      "id": "sk-2",
+      "name": "Redux Toolkit",
+      "category": "frontend",
+      "proficiency": 90,
+      "iconName": "Layers",
+      "description": "RTK Query, Slices, Normalized State",
+      "order": 2
+    },
+    {
+      "id": "sk-3",
+      "name": "TypeScript",
+      "category": "frontend",
+      "proficiency": 88,
+      "iconName": "FileCode",
+      "description": "Strict typing, Generics, Type Narrowing",
+      "order": 3
+    },
+    {
+      "id": "sk-4",
+      "name": "Tailwind CSS",
+      "category": "frontend",
+      "proficiency": 96,
+      "iconName": "Palette",
+      "description": "Design systems, Dark mode, Responsive layouts",
+      "order": 4
+    },
+    {
+      "id": "sk-5",
+      "name": "Next.js",
+      "category": "frontend",
+      "proficiency": 85,
+      "iconName": "Globe",
+      "description": "App Router, SSR, Server Components",
+      "order": 5
+    },
+    {
+      "id": "sk-6",
+      "name": "Node.js",
+      "category": "backend",
+      "proficiency": 92,
+      "iconName": "Server",
+      "description": "Event loop, Asynchronous patterns, Streams",
+      "order": 6
+    },
+    {
+      "id": "sk-7",
+      "name": "Express.js",
+      "category": "backend",
+      "proficiency": 94,
+      "iconName": "Cpu",
+      "description": "Middleware chaining, REST API design, Routing",
+      "order": 7
+    },
+    {
+      "id": "sk-8",
+      "name": "JWT & Security",
+      "category": "backend",
+      "proficiency": 90,
+      "iconName": "ShieldCheck",
+      "description": "Bearer tokens, Password hashing, Rate limiting",
+      "order": 8
+    },
+    {
+      "id": "sk-9",
+      "name": "REST & GraphQL APIs",
+      "category": "backend",
+      "proficiency": 88,
+      "iconName": "Network",
+      "description": "Contract design, Versioning, Error handling",
+      "order": 9
+    },
+    {
+      "id": "sk-10",
+      "name": "MongoDB & Mongoose",
+      "category": "database",
+      "proficiency": 94,
+      "iconName": "Database",
+      "description": "Schema validation, Aggregation pipelines",
+      "order": 10
+    },
+    {
+      "id": "sk-11",
+      "name": "Database Quick Indexing",
+      "category": "database",
+      "proficiency": 92,
+      "iconName": "Zap",
+      "description": "Compound indexes, Execution stats (explain)",
+      "order": 11
+    },
+    {
+      "id": "sk-12",
+      "name": "PostgreSQL",
+      "category": "database",
+      "proficiency": 82,
+      "iconName": "Table",
+      "description": "Relational modeling, Joins, Transactions",
+      "order": 12
+    },
+    {
+      "id": "sk-13",
+      "name": "Redis Caching",
+      "category": "database",
+      "proficiency": 85,
+      "iconName": "HardDrive",
+      "description": "In-memory caching, Session store, Rate limits",
+      "order": 13
+    },
+    {
+      "id": "sk-14",
+      "name": "Git & GitHub",
+      "category": "tools",
+      "proficiency": 94,
+      "iconName": "GitBranch",
+      "description": "Branch workflows, PR reviews, Actions CI/CD",
+      "order": 14
+    },
+    {
+      "id": "sk-15",
+      "name": "Docker & Containers",
+      "category": "tools",
+      "proficiency": 80,
+      "iconName": "Box",
+      "description": "Containerization, Dockerfile optimization",
+      "order": 15
+    },
+    {
+      "id": "sk-16",
+      "name": "Postman & API Testing",
+      "category": "tools",
+      "proficiency": 92,
+      "iconName": "CheckCircle2",
+      "description": "Automated test suites, Mock servers",
+      "order": 16
+    },
+    {
+      "id": "sk-17",
+      "name": "Vite & Webpack",
+      "category": "tools",
+      "proficiency": 90,
+      "iconName": "Sparkles",
+      "description": "Bundling, Code-splitting, Asset pipeline",
+      "order": 17
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "Full Stack MERN Developer",
+      "company": "Nexus Tech Solutions",
+      "companyUrl": "https://example.com",
+      "location": "Islamabad / Hybrid",
+      "period": "2024 - Present",
+      "current": true,
+      "description": [
+        "Architected end-to-end full-stack web applications using Node.js, Express, React, and MongoDB.",
+        "Optimized query execution time by 60% through targeted compound database indexing and Redis key-value caching.",
+        "Implemented robust JWT authentication workflows with strict refresh token rotation and CSRF protection.",
+        "Engineered automated WhatsApp and email notifications for customer transaction events."
+      ],
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "Redux Toolkit",
+        "Tailwind CSS",
+        "Docker"
+      ],
+      "order": 1
+    },
+    {
+      "id": "exp-2",
+      "role": "Software Engineer Intern",
+      "company": "Apex Code Systems",
+      "companyUrl": "https://example.com",
+      "location": "Islamabad, Pakistan",
+      "period": "2023 - 2024",
+      "current": false,
+      "description": [
+        "Contributed to core dashboard interfaces using React, TypeScript, and modern component libraries.",
+        "Developed and documented RESTful microservices endpoints with Express.js and Jest automated tests.",
+        "Assisted in data migration scripts and schema definitions for relational and NoSQL databases."
+      ],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Node.js",
+        "REST APIs",
+        "Git",
+        "MongoDB"
+      ],
+      "order": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "title": "Optimizing MongoDB for High-Throughput MERN Applications: The Quick Indexing Playbook",
+      "slug": "optimizing-mongodb-quick-indexing-mern",
+      "excerpt": "Deep-dive into indexing strategies, execution stats (explain plan), compound indexes, and eliminating full collection scans in production MERN stacks.",
+      "content": "## Why Database Indexing is Non-Negotiable\n\nWhen building full-stack MERN applications, it is easy to focus primarily on frontend aesthetics and Express controller logic. However, as user traffic grows, unindexed queries quickly become the primary bottleneck.\n\nA query without an index triggers a **COLLSCAN** (full collection scan), reading every single document on disk.\n\n```javascript\n// Unindexed query scanning 100,000 documents\ndb.orders.find({ customerId: \"64a9...\", status: \"pending\" })\n```\n\n### Creating Compound Indexes\nA compound index covers multiple fields. The order of fields matters based on the **ESR rule** (Equality, Sort, Range):\n\n```javascript\n// Optimal compound index following ESR\ndb.orders.createIndex({ customerId: 1, status: 1, createdAt: -1 });\n```\n\n### Inspecting Execution Stats\nAlways run `.explain(\"executionStats\")` to verify:\n- `totalDocsExamined` should closely match `nReturned`.\n- `stage` should be **IXSCAN** (Index Scan) followed by **FETCH**, never **COLLSCAN**.\n\nWith proper indexing, query response times plummet from **850ms down to 4ms**!",
+      "coverImage": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "MongoDB",
+        "Performance",
+        "MERN Stack",
+        "Backend"
+      ],
+      "readTimeMinutes": 6,
+      "isPublished": true,
+      "views": 342,
+      "createdAt": "2025-02-18T11:00:00.000Z",
+      "updatedAt": "2025-02-18T11:00:00.000Z"
+    },
+    {
+      "id": "post-2",
+      "title": "Bulletproof JWT Authentication & Session Security in Node.js & Express",
+      "slug": "bulletproof-jwt-authentication-session-security-express",
+      "excerpt": "A comprehensive guide to implementing stateless JWT authentication, secure HTTP-only cookies, token rotation, and role-based access control.",
+      "content": "## The Modern Security Landscape\n\nJSON Web Tokens (JWT) are the standard for stateless API authentication. However, naive implementations that store JWTs in `localStorage` expose users to Cross-Site Scripting (XSS) credential theft.\n\n### The Secure Approach:\n1. **Access Token**: Short-lived (15 minutes), signed with strong secret, sent in Authorization header or secure memory.\n2. **Refresh Token**: Long-lived (7 days), stored in an `HttpOnly`, `Secure`, `SameSite=Strict` cookie.\n3. **Token Blacklisting**: Maintained in Redis or database upon explicit logout.\n\n```typescript\n// Express JWT Verification Middleware\nimport jwt from 'jsonwebtoken';\n\nexport const requireAuth = (req, res, next) => {\n  const authHeader = req.headers.authorization;\n  if (!authHeader?.startsWith('Bearer ')) {\n    return res.status(401).json({ message: 'Unauthorized access' });\n  }\n\n  const token = authHeader.split(' ')[1];\n  try {\n    const payload = jwt.verify(token, process.env.JWT_SECRET);\n    req.user = payload;\n    next();\n  } catch (err) {\n    return res.status(403).json({ message: 'Token expired or invalid' });\n  }\n};\n```\n\nBy separating concerns and utilizing cryptographically secure secret keys, your web application maintains enterprise-grade security.",
+      "coverImage": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "Security",
+        "JWT",
+        "Node.js",
+        "Express"
+      ],
+      "readTimeMinutes": 5,
+      "isPublished": true,
+      "views": 512,
+      "createdAt": "2025-03-05T14:20:00.000Z",
+      "updatedAt": "2025-03-05T14:20:00.000Z"
+    },
+    {
+      "id": "post-3",
+      "title": "Clean Architecture with Redux Toolkit: Structuring Scalable Client State",
+      "slug": "clean-architecture-redux-toolkit-patterns",
+      "excerpt": "How to structure Redux slices, avoid boilerplate, manage asynchronous state, and build predictable UI flows in modern React 19 apps.",
+      "content": "## Moving Beyond Redux Boilerplate\n\nRemember the days of action types, action creators, and cumbersome switch-case reducers? **Redux Toolkit (RTK)** has transformed state management into an intuitive, high-velocity experience.\n\n### Key Principles for Large Apps\n- **Single Source of Truth**: Keep global server cache or cross-view state in Redux, but local form states in React `useState`.\n- **Typed Hooks**: Always use custom `useAppDispatch` and `useAppSelector` wrappers for complete TypeScript auto-completion.\n- **Slice Modularity**: Segment domains cleanly: `portfolioSlice`, `blogSlice`, and `adminSlice`.\n\n```typescript\nimport { createSlice, PayloadAction } from '@reduxjs/toolkit';\n\ninterface ThemeState {\n  isDark: boolean;\n}\n\nconst themeSlice = createSlice({\n  name: 'theme',\n  initialState: { isDark: true },\n  reducers: {\n    toggleTheme: (state) => {\n      state.isDark = !state.isDark;\n    }\n  }\n});\n```\n\nUsing RTK with Tailwind allows seamless dark mode transitions and responsive state synchronizations across devices.",
+      "coverImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
+      "tags": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "Frontend"
+      ],
+      "readTimeMinutes": 4,
+      "isPublished": true,
+      "views": 289,
+      "createdAt": "2025-03-22T08:45:00.000Z",
+      "updatedAt": "2025-03-22T08:45:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+123456789",
+      "subject": "Full Stack Web Development",
+      "budget": "$3,000 - $5,000",
+      "timeline": "2 - 4 Weeks",
+      "message": "Looking to build a scalable MERN platform.",
+      "formattedWhatsAppText": "*New Portfolio Inquiry* 📬\nHello Ammar! I am reaching out to you from your portfolio website.\n*Sender Details:*\n• *Name:* John Doe\n• *Email:* john@example.com\n• *Phone/WhatsApp:* +123456789\n*Project Details:*\n• *Subject / Topic:* Full Stack Web Development\n• *Estimated Budget:* $3,000 - $5,000\n• *Expected Timeline:* 2 - 4 Weeks\n*Message:*\n\"Looking to build a scalable MERN platform.\"\nLooking forward to discussing further!",
+      "id": "msg-1788762857810",
+      "read": false,
+      "createdAt": "2026-09-07T06:34:17.810Z"
+    }
+  ]
+}
