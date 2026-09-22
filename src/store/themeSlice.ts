@@ -8,9 +8,9 @@ const getInitialTheme = (): boolean => {
   if (typeof window !== 'undefined') {
     const saved = localStorage.getItem('portfolio_theme');
     if (saved) return saved === 'dark';
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return true; // Default to dark for sleek developer portfolio aesthetics
   }
-  return true; // Default to dark for sleek developer aesthetics
+  return true;
 };
 
 const initialState: ThemeState = {

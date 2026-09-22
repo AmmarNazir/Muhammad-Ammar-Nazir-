@@ -12,13 +12,18 @@
 html {
   font-family: var(--font-sans);
   scroll-behavior: smooth;
-  background-color: #fafafa;
-  color: #18181b;
+  background-color: #0a0a0a;
+  color: #f4f4f5;
 }
 
 html.dark {
   background-color: #0a0a0a;
   color: #f4f4f5;
+}
+
+html:not(.dark) {
+  background-color: #fafafa;
+  color: #18181b;
 }
 
 code, kbd, samp, pre {
