@@ -526,10 +526,6 @@ export const AdminPanel: React.FC = () => {
                   {authLoading ? 'Verifying Credentials...' : 'Sign In'}
                 </button>
               </form>
-
-              <div className="p-3 rounded-xl bg-black border border-zinc-800 text-[11px] font-mono text-zinc-400">
-                Admin: <span className="text-emerald-400">admin@ammar.dev</span> / <span className="text-emerald-400">Admin@12345</span>
-              </div>
             </div>
           </div>
         ) : (
