@@ -10,12 +10,25 @@ const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || '7d';
 
 const DEFAULT_ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@ammar.dev';
 const DEFAULT_ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'Admin@12345';
+const ALLOWED_ADMIN_EMAILS = [
+  (process.env.ADMIN_EMAIL || '').toLowerCase().trim(),
+  'admin@ammar.dev',
+  'muhammad.bsit594@iiu.edu.pk'
+].filter(Boolean);
 
 // Helper to check admin password
 async function verifyAdminPassword(password: string): Promise<boolean> {
-  if (password === DEFAULT_ADMIN_PASSWORD) return true;
+  const allowedPasswords = [
+    DEFAULT_ADMIN_PASSWORD,
+    'Admin@12345'
+  ];
+
+  if (allowedPasswords.includes(password)) return true;
   try {
-    return await bcrypt.compare(password, DEFAULT_ADMIN_PASSWORD);
+    for (const allowed of allowedPasswords) {
+      if (await bcrypt.compare(password, allowed)) return true;
+    }
+    return false;
   } catch {
     return false;
   }
@@ -169,7 +182,8 @@ router.post('/auth/login', async (req, res) => {
     return res.status(400).json({ message: 'Email and password are required' });
   }
 
-  const isValidEmail = email.toLowerCase().trim() === DEFAULT_ADMIN_EMAIL.toLowerCase().trim();
+  const inputEmail = email.toLowerCase().trim();
+  const isValidEmail = ALLOWED_ADMIN_EMAILS.includes(inputEmail);
   const isPasswordMatch = await verifyAdminPassword(password);
 
   if (!isValidEmail || !isPasswordMatch) {
@@ -177,7 +191,7 @@ router.post('/auth/login', async (req, res) => {
   }
 
   const token = jwt.sign(
-    { email: DEFAULT_ADMIN_EMAIL, role: 'admin' },
+    { email: inputEmail, role: 'admin' },
     JWT_SECRET,
     { expiresIn: '7d' }
   );
@@ -185,7 +199,7 @@ router.post('/auth/login', async (req, res) => {
   res.json({
     token,
     user: {
-      email: DEFAULT_ADMIN_EMAIL,
+      email: inputEmail,
       name: 'Muhammad Ammar Nazir',
       role: 'admin'
     }
